@@ -1,7 +1,13 @@
+#include <stdio.h>
+
 int	main(int ac, char **av)
 {
 	(void)av;
 	if (ac != 1)
-		return (0);
+	{
+		printf("ret = 1\n");
+		return (1);
+	}
+	printf("ret = -1\n");
 	return (-1);
 }
