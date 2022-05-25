@@ -1,1 +1,3 @@
 gcc -Wall -Wextra -Werror -pthread -fsanitize=address -g3 test.c
+
+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
